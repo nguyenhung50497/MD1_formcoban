@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<STYLE>
+    select {
+      width: 100px;
+    }
+    span {
+      color: red;
+    }
+    #mail {
+      width: 250px;
+    }
+    #numb {
+      width: 50px;
+    }
+    fieldset {
+      width: 300px;
+    }
+    #nname {
+      width: 120px;
+    }
+</STYLE>
+<body>
+  <form action="" method="post">
+    <fieldset>
+    <p>What would you like to buy?</p>
+    <select name="buy" id="b1">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+    </select>
+    <br>
+    <p>How many would you like to order?</p>
+    <input type="radio" name="order">1-$10<br>
+    <input type="radio" name="order">2-$20<br>
+    <input type="radio" name="order">3-$25<br>
+    <p>Name <span>*</span></p>
+    <input type="text" placeholder="FirstName" id="nname">
+    <input type="text" placeholder="LastName" id="nname">
+    <br>
+    <p>Email</p>
+    <input type="email" id="mail">
+    <br>
+    <p>Phone Number</p>
+    <input type="number" id="numb">-<input type="number" id="numb">-<input type="number" id="numb">
+    <br><br>
+    <input type="submit">
+    </fieldset>
+  </form>
+</body>
+</html>
