@@ -25,7 +25,7 @@
     }
 </STYLE>
 <body>
-  <form action="" method="post">
+  <form action="index.html" method="post">
     <fieldset>
     <p>What would you like to buy?</p>
     <select name="buy" id="b1">
@@ -41,16 +41,18 @@
     <input type="radio" name="order">2-$20<br>
     <input type="radio" name="order">3-$25<br>
     <p>Name <span>*</span></p>
-    <input type="text" placeholder="FirstName" id="nname">
-    <input type="text" placeholder="LastName" id="nname">
+    <input type="text" name="firstname" placeholder="FirstName" id="nname">
+    <input type="text" name="lastname" placeholder="LastName" id="nname">
     <br>
     <p>Email</p>
-    <input type="email" id="mail">
+    <input type="email" name="mail" id="mail">
     <br>
     <p>Phone Number</p>
-    <input type="number" id="numb">-<input type="number" id="numb">-<input type="number" id="numb">
+    <input type="number" name="phone1" id="numb">-
+      <input type="number" name="phone2" id="numb">-
+      <input type="number" name="phone3" id="numb">
     <br><br>
-    <input type="submit">
+    <input type="submit" name="submit">
     </fieldset>
   </form>
 </body>
